@@ -1,8 +1,10 @@
 nav {
     background-color: #000000;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left:10px;
 }
 
 ul {
@@ -13,17 +15,19 @@ ul {
 }
 
 li {
-    padding: 14px 16px;
+    padding: 14px 10px;
 }
 
 li:hover {
-    background-color: #00ff9d;
+    text-decoration: underline;
+    cursor: pointer;
+    filter: brightness(50%);
 }
 
 a {
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 10px;
     text-decoration: none;
 }
 
@@ -31,4 +35,15 @@ a.active {
     color: #00C6A7;
     text-decoration: underline;
     font-weight: bold;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 45px;
+    height: auto;
+    background-color: white;
 }

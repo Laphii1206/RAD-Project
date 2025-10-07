@@ -4,11 +4,12 @@ import Footer from '../Components/Footer/Footer.jsx'
 function Home() {
   return (
     <div>
-        <h1>Welcome to "name" Wholesale</h1> 
-        <p>Your one-stop shop for quality wholesale products.</p>
-        <p>Contact us today to learn more about our offerings!</p>
-        <p>We look forward to serving you!</p>
-        <Footer/>
+      <br></br>
+      <h1>Welcome to "name" Wholesale</h1>
+      <h2>Your one-stop shop for quality wholesale products.</h2>
+      <h2>Contact us today to learn more about our offerings!</h2>
+      <h2>We look forward to serving you!</h2>
+        <button type="button" className="learn-more-button">Learn More</button>
     </div>
   )
 }
