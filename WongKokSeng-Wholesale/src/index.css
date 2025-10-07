@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+  background: rgb(0, 83, 94);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+}
+
+img{
+    width:200px;
+    height:150px;
+    object-fit:cover;
+}
