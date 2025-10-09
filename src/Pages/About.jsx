@@ -1,4 +1,5 @@
 import React from 'react'
+import coverBg from '../assets/coverBG.jpg';
 
 function About() {
   return (
