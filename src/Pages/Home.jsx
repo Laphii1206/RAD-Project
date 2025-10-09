@@ -1,9 +1,13 @@
 import React from 'react'
 import Footer from '../Components/Footer/Footer.jsx'
+import heroBg from '../assets/cabbage.jpg'
 
 function Home() {
   return (
-    <div>
+    <div
+      className="bg-cover bg-center bg-no-repeat min-h-screen flex flex-col items-center justify-center text-white p-8"
+      style={{ backgroundImage: `url(${heroBg})` }}
+    >
       <br></br>
       <h1>Welcome to "name" Wholesale</h1>
       <h2>Your one-stop shop for quality wholesale products.</h2>
