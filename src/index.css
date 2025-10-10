@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-
-
 
 @layer components {
   .heading-2 {
@@ -24,14 +16,10 @@ body
 a{
   text-decoration: none;
   color: inherit;
-  line-height: 1;
+  line-height: 1.5;
 }
 
-img{
-    width:200px;
-    height:150px;
-    object-fit:cover;
-}
+
 
 
 /*FORM AREA IN CONTACT*/
@@ -60,6 +48,7 @@ img{
   margin-bottom: 16px;
   font-family: inherit;
   border: 1px solid #ccc;
+  background-color:white;
   border-radius: 4px;
   box-sizing: border-box;
   transition: border-color 0.3s;

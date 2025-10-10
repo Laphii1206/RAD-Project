@@ -3,7 +3,7 @@ import coverBg from '../assets/coverBG.jpg';
 
 function About() {
   return (
-    <div>
+    <div className="pt-12">
         <h1>About Us</h1>
         <p>Wong Kok Seng Wholesale has been a trusted name in the wholesale industry for over 20 years.</p>
         <p>We are committed to providing high-quality products at competitive prices.</p>

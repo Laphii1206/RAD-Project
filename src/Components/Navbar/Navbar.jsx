@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../../assets/company-logo.png'
@@ -7,7 +6,7 @@ function Navbar() {
   const location = useLocation();
 
   return (
-    <nav>
+    <nav className="navbar">
        <div className="company-logo">
       <img src={logo} alt="Company Logo" className="logo-image" />
       </div>
