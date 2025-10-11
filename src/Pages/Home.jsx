@@ -5,7 +5,6 @@ import CoverBG from '../assets/coverBG.jpg'
 function Home() {
   return (
     <div className="w-full">
-      {/* Hero Section */}
       <div className="relative h-[100vh] overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-xs"
@@ -18,7 +17,6 @@ function Home() {
           <h2 className="heading-2">Contact us today to learn more about our offerings!</h2>
           <h2 className="heading-2">We look forward to serving you!</h2>
           
-          {/* Buttons side by side */}
           <div className="flex space-x-6 mt-8 ">
             <button 
               className="learn-more-button"
