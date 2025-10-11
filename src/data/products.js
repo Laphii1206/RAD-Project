@@ -1,74 +1,101 @@
+import bokChoy from '../assets/bok-choy.jpg';
+import broccoli from '../assets/broccoli.jpg';
+import cucumber from '../assets/cucumber.jpg';
+import kangkong from '../assets/kangkong.jpg';
+import spinach from '../assets/spinach.jpg';
+import choySum from '../assets/choySum.jpg';
+import kale from '../assets/kale.jpg';
+import greenCapsicum from '../assets/green-capsicum.jpg';
+
+
 export const products = [
   {
     id: 1,
     name: 'Broccoli',
     href: '#',
-    size: 500,
-    price: '$3.20',
-    imageSrc: 'https://images.unsplash.com/photo-1582515073490-dc84f83b60d4',
+    imageSrc: broccoli,
     imageAlt: 'Fresh green broccoli florets on a wooden table.',
+    variants: [
+      { size: 500, price: 'RM 3.20' },
+      { size: 1000, price: 'RM 5.80' },
+    ],
   },
+  
   {
     id: 2,
     name: 'Spinach',
     href: '#',
-    size: 250,
-    price: '$2.80',
-    imageSrc: 'https://images.unsplash.com/photo-1584270354949-1c7d5a6b09a0',
+    imageSrc: spinach,
     imageAlt: 'Fresh baby spinach leaves in a bowl.',
+    variants: [
+      { size: 250, price: 'RM 2.80' },
+      { size: 500, price: 'RM 4.50' },
+    ],
   },
   {
     id: 3,
     name: 'Cucumber',
     href: '#',
-    size: 600,
-    price: '$2.50',
-    imageSrc: 'https://images.unsplash.com/photo-1567306226416-28f0efdc88ce',
+    imageSrc: cucumber,
     imageAlt: 'Fresh cucumbers arranged on a cutting board.',
+    variants: [
+      { size: 250, price: 'RM 2.50' },
+      { size: 500, price: 'RM 4.20' },
+    ],
   },
   {
     id: 4,
     name: 'Kale',
     href: '#',
-    size: 300,
-    price: '$3.60',
-    imageSrc: 'https://images.unsplash.com/photo-1617137968427-85924c800a94',
+    imageSrc: kale,
     imageAlt: 'Crisp curly kale leaves with rich green texture.',
+    variants: [
+      { size: 300, price: 'RM 3.00' },
+      { size: 600, price: 'RM 5.50' },
+    ],
   },
   {
     id: 5,
     name: 'Bok Choy',
     href: '#',
-    size: 400,
-    price: '$2.90',
-    imageSrc: 'https://images.unsplash.com/photo-1615486364157-5e3b3c720d92',
+    imageSrc: bokChoy,
     imageAlt: 'Fresh bok choy on a wooden cutting board.',
+    variants: [
+      { size: 400, price: 'RM 2.90' },
+      { size: 800, price: 'RM 5.20' },
+    ],
   },
   {
     id: 6,
     name: 'Green Capsicum',
     href: '#',
-    size: 450,
-    price: '$3.00',
-    imageSrc: 'https://images.unsplash.com/photo-1603052875330-39f9a0b4b87d',
+    imageSrc: greenCapsicum,
     imageAlt: 'Crisp green bell pepper placed on a rustic surface.',
+    variants:[
+      { size: 300, price: 'RM 3.50' },
+      { size: 600, price: 'RM 6.00' },
+    ]
   },
   {
     id: 7,
     name: 'Kangkong (Water Spinach)',
     href: '#',
-    size: 500,
-    price: '$2.70',
-    imageSrc: 'https://images.unsplash.com/photo-1604908177522-040b6ec2a38b',
+    imageSrc: kangkong,
     imageAlt: 'Bundle of fresh water spinach stalks and leaves.',
+    variants: [
+      { size: 300, price: 'RM 2.70' },
+      { size: 600, price: 'RM 4.80' },
+    ]
   },
   {
     id: 8,
     name: 'Choy Sum',
     href: '#',
-    size: 400,
-    price: '$2.80',
-    imageSrc: 'https://images.unsplash.com/photo-1621086893828-2b4e4b3d5b9c',
+    imageSrc: choySum,
     imageAlt: 'Fresh choy sum vegetables ready for cooking.',
+    variants: [
+      { size: 300, price: 'RM 2.60' },
+      { size: 600, price: 'RM 4.70' },
+    ]
   },
 ];
