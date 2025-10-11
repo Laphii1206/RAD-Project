@@ -157,7 +157,7 @@ a{
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 20px auto; 
+    margin: 0px 20px; 
     display: block; 
     width: fit-content;
 }

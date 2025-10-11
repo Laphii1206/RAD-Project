@@ -1,10 +1,12 @@
 import React from 'react'
 import cabbageImg from '../assets/cabbage.jpg'
+import Footer from '../Components/Footer/Footer.jsx'
 import { products } from '../data/products';
 
 
 function Products() {
   return (
+    <div>
     <div className="flex flex-col items-center">
       <h2 className="text-white text-center text-3xl font-bold mb-8 mt-20">Our Products</h2>
 
@@ -29,8 +31,13 @@ function Products() {
             </div>
           </a>
         ))}
+        
       </div>
+      </div>
+      <br></br>
+      <Footer/>
     </div>
+    
   );
 }
 

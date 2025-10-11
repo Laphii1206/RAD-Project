@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer/Footer.jsx'
 
 function Contact() {
   return (
@@ -12,6 +13,8 @@ function Contact() {
     <textarea id="message" name="message" required placeholder="Your Message"></textarea>
     <button type="submit">SEND</button>
   </form>
+          <Footer/>
+
     </div>
   )
 }
