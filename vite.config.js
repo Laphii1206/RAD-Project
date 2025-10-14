@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: 'https://laphii1206.github.io/',
+  base: 'laphii1206.github.io/',
 })
