@@ -29,5 +29,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-  }
+  },
+  "homepage": "https://laphii1206.github.io"
 }
+
